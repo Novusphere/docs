@@ -1,6 +1,6 @@
 # Unified ID
 
-**Summary:** Unified ID is a system in which a combination of [BIP39]([https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)) mnemonics and [BIP32]([https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)) is used for multi-purpose blockchain keys and identity. The mnemonic acts as an "account" which can be used between different platforms of which different platforms can build reputation for.
+**Summary:** Unified ID is a system in which a combination of [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) mnemonics and [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) is used for multi-purpose blockchain keys and identity. The mnemonic acts as an "account" which can be used between different platforms of which different platforms can build reputation for.
 
 # Keys
 
