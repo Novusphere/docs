@@ -7,8 +7,9 @@
 
 | Name  | Derivation Path   | Purpose   |
 |---|---|---|
-| Identity Key   | m/80'/0'/0'/0   | General purpose key, safe to hold private key in memory. Reputation is built against this key on various platforms.   |
+| Active Key   | m/80'/0'/0'/0   | General purpose key, private key may be held in memory.   |
 | Wallet Key   | m/80'/0'/0'/1  | Wallet key, NOT safe to hold private key in memory. Should only be derived as required. Used to access user funds.   |
+| Personal Key   | m/80'/0'/0'/2  | Key for personal account information   |
 
 # Wallet
 
@@ -21,7 +22,7 @@
 ### Notes for EOS and EOS Tokens
 EOS based tokens make use of Novusphere's modified "pay2key" contract. The correct contract account is detailed in the "Additional Information" section. This account accepts deposits via a transfer where the memo is the public key. Withdrawals to an EOS account are done by calling `transfer` with a special `to` address of `EOS1111111111111111111111111111111114T1Anm` and the memo being `eosaccount:usermemo`, for example, `nsfoundation:hello world`. Every token in the "pay2key" contract has a chain (id) associated with it as shown in the table above.
 
-# Novusphere pay2key Signature
+# Novusphere Wallet Transaction Signature
 
 ### Version 3
 
